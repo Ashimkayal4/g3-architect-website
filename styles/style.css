@@ -6,3 +6,66 @@
     font-weight: 400;
     font-style: normal;
 }
+
+/* header */
+
+/* navbar */
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.brand-name{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    align-items: center;
+}
+.ul-items{
+    display: flex;
+    gap: 20px;
+    /* text-align: center; */
+}
+.item-link{
+    /* list-style: none; */
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1);
+}
+.li-items{
+    list-style: none;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner related style */
+.brand-name-style{
+    font-size: 4rem;
+    text-align: center;
+}
+.banner-para{
+    font-size: 1.25rem;
+    text-align: center;
+}
+.btn-banner{
+    background-color: #FF900E;
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+.banner-one{
+    align-items: center;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-image{
+    width: 100%;
+}
