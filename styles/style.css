@@ -20,18 +20,18 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    /* text-align: center; */
     align-items: center;
 }
 .ul-items{
     display: flex;
     gap: 20px;
-    /* text-align: center; */
+    /* margin-right: 10px; */
+    /* padding-right: 10px; */
 }
 .item-link{
-    /* list-style: none; */
     text-decoration: none;
     color: rgba(66, 66, 66, 1);
+    font-size: 1.25rem;
 }
 .li-items{
     list-style: none;
@@ -68,4 +68,20 @@
 }
 .banner-image{
     width: 100%;
+}
+@media screen and (max-width:576px) {
+    .navbar, .ul-items{
+        flex-direction: column;
+    }
+    
+}
+/* main page-one */
+.main-page-one{
+  display: flex;
+  align-items: center;
+}
+.main-banner-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
 }
